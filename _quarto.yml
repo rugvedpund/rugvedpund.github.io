@@ -1,5 +1,8 @@
 project:
   type: website
+  preview:
+    port: 8811
+    browser: false
 
 website:
   title: "rugved's stuff"
@@ -11,7 +14,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: styles.css
     toc: true
 
